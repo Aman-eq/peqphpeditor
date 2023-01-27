@@ -1005,6 +1005,7 @@ function add_multiple_spawngroup_member() {
   $npc = $_REQUEST['npc'];
   $balance = $_REQUEST['balance'];
   $chance = ($balance == "on") ? 0 : $_REQUEST['chance'];
+  $condition_value_filter = $_REQUEST['condition_value_filter'];
   $min_expansion = $_REQUEST['min_expansion'];
   $max_expansion = $_REQUEST['max_expansion'];
   $content_flags = $_REQUEST['content_flags'];
@@ -1590,6 +1591,7 @@ function add_spawngroup() {
   $name = $_POST['name'];
   $npcID = $_POST['npcID'];
   $chance = ($_POST['chance'] >= 0 && $_POST['chance'] <= 100) ? $_POST['chance'] : 100;
+  $condition_value_filter = $_POST['condition_value_filter'];
   $min_expansion = $_POST['min_expansion'];
   $max_expansion = $_POST['max_expansion'];
   $content_flags = $_POST['content_flags'];
