@@ -70,7 +70,7 @@
 <?endif;?>
             </td>
             <td width="15%">
-              [<a href="https://lucy.allakhazam.com/item.html?id=<?=$item_id?>" target="_blank">Lucy</a>]
+              [<a href="http://192.168.0.25:8090/item/<?=$item_id?>" target="_blank">Spire</a>]
             </td>
             <td align="center" width="15%">&nbsp;</td>
             <td align="center" width="15%">&nbsp;</td>
@@ -96,7 +96,7 @@
               <?=$name?> (<a href="index.php?editor=items&ts=<?=$ts?>&rec=<?=$rec?>&tsid=<?=$id?>&id=<?=$item_id?>&action=2"><?=$item_id?></a>)
             </td>
             <td width="15%">
-              [<a href="https://lucy.allakhazam.com/item.html?id=<?=$item_id?>" target="_blank">Lucy</a>]
+              [<a href="http://192.168.0.25:8090/item/<?=$item_id?>" target="_blank">Spire</a>]
             </td>
             <td align="center" width="10%">
               Qty: <?=$componentcount?>
@@ -129,7 +129,7 @@
               <?=$name?> (<a href="index.php?editor=items&ts=<?=$ts?>&rec=<?=$rec?>&tsid=<?=$id?>&id=<?=$item_id?>&action=2"><?=$item_id?></a>)
             </td>
             <td width="15%">
-              [<a href="https://lucy.allakhazam.com/item.html?id=<?=$item_id?>" target="_blank">Lucy</a>]
+              [<a href="http://192.168.0.25:8090/item/<?=$item_id?>" target="_blank">Spire</a>]
             </td>
             <td align="center" width="15%">
               Qty: <?=$successcount?>

@@ -59,7 +59,7 @@ foreach($slots as $slot=>$v):
           <td align="center"><?=$v['instance_id']?></td>
           <td align="center"><?=$v['itemid']?></td>
           <td><?=$v['item_name']?></td>
-          <td>[<a href="https://lucy.allakhazam.com/item.html?id=<?=$v['itemid']?>" target="_blank">Lucy</a>]</td>
+          <td>[<a href="http://192.168.0.25:8090/item/<?=$v['itemid']?>" target="_blank">Spire</a>]</td>
           <td align="center"><?=$v['charges']?></td>
           <td align="center"><?=$cost?>
 <?if ($v['price'] > 999):?>
